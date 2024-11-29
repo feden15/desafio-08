@@ -23,3 +23,24 @@ console.log(edad);
 
 let nuevaLongitudConocimientos = conocimientos.push('Conducir');
 console.log(conocimientos);
+
+//! ------------------------------------------ PARTE 2 -------------------------------------------------- 
+
+console.warn('PARTE 2');
+
+let marca = 'Peugeot';
+let velocidad = '150 Km/h';
+let stock = '10';
+let modelos = ['Landtrek','Partner', 'SUV 2008', 'E-208'];
+
+console.log('Recorremos el array con un for (a continuación)');
+
+for (let i = 0; i < modelos.length; i++) {
+    console.log(modelos[i]);
+}
+console.log(' '); // Para dejar espacio en la consola
+console.log('Recorremos el array con un forEach (a continuación)');
+
+modelos.forEach(function(modelo, i) {
+    console.log(modelo);
+})
