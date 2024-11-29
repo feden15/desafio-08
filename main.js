@@ -79,7 +79,6 @@ if (sueldo == 100000) {
 console.warn('PARTE 5');
 
 let anioNacimiento = 1998;
-
 // anioNacimiento = Number(prompt('Cuál es su año de nacimiento?', '1998'));
 
 console.log('Actualmente tenés ' + (2024 - anioNacimiento));
@@ -88,9 +87,22 @@ console.log('Actualmente tenés ' + (2024 - anioNacimiento));
 
 console.warn('PARTE 6');
 
-let numero = 0;
-numero = Number(prompt('Dime un número entero'));
+let numeroParaTabla = 0;
+// numeroParaTabla = Number(prompt('Dime un número entero'));
 
 for (let i=1; i<=10; i++) {
-    console.log(numero+' x '+i+' = '+numero*i);
+    console.log(numeroParaTabla+' x '+i+' = '+numeroParaTabla*i);
+}
+
+//! ------------------------------------------ PARTE 7 -------------------------------------------------- 
+
+console.warn('PARTE 7');
+
+let numeroEsPar = 0;
+numeroEsPar = Number(prompt('Dime un número entero'));
+
+if ((numeroEsPar % 2) == 0) {
+    console.warn('El número es par, el módulo da 0');
+} else {
+    console.warn('El número es impar, el módulo da distinto de 0');
 }
