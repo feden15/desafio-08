@@ -73,3 +73,13 @@ if (sueldo == 100000) {
  } else if (sueldo <= 80000) {
     console.log('Muy bueno');
 }
+
+//! ------------------------------------------ PARTE 5 -------------------------------------------------- 
+
+console.warn('PARTE 5');
+
+let anioNacimiento = 1998;
+
+// anioNacimiento = Number(prompt('Cuál es su año de nacimiento?', '1998'));
+
+console.log('Actualmente tenés ' + (2024 - anioNacimiento));
