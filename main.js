@@ -44,3 +44,15 @@ console.log('Recorremos el array con un forEach (a continuación)');
 modelos.forEach(function(modelo, i) {
     console.log(modelo);
 })
+
+//! ------------------------------------------ PARTE 3 -------------------------------------------------- 
+
+console.warn('PARTE 3');
+
+let rapidez = 135; // "Velocidad" ya está declarada en la parte dos
+
+if (rapidez > 60) {
+    console.log('Por favor, reduzca la velocidad');
+} else {
+    console.log('Va a buena velocidad, no sobrepase los 60 km/h');
+}
