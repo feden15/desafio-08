@@ -83,3 +83,14 @@ let anioNacimiento = 1998;
 // anioNacimiento = Number(prompt('Cuál es su año de nacimiento?', '1998'));
 
 console.log('Actualmente tenés ' + (2024 - anioNacimiento));
+
+//! ------------------------------------------ PARTE 6 -------------------------------------------------- 
+
+console.warn('PARTE 6');
+
+let numero = 0;
+numero = Number(prompt('Dime un número entero'));
+
+for (let i=1; i<=10; i++) {
+    console.log(numero+' x '+i+' = '+numero*i);
+}
