@@ -99,7 +99,7 @@ for (let i=1; i<=10; i++) {
 console.warn('PARTE 7');
 
 let numeroEsPar = 0;
-numeroEsPar = Number(prompt('Dime un número entero'));
+// numeroEsPar = Number(prompt('Dime un número entero'));
 
 if ((numeroEsPar % 2) == 0) {
     console.warn('El número es par, el módulo da 0');
