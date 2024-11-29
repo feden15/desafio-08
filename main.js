@@ -56,3 +56,20 @@ if (rapidez > 60) {
 } else {
     console.log('Va a buena velocidad, no sobrepase los 60 km/h');
 }
+
+//! ------------------------------------------ PARTE 4 -------------------------------------------------- 
+
+console.warn('PARTE 4');
+
+let sueldo = 0;
+// sueldo = Number(prompt('Cuál es su sueldo?', '0'));
+
+if (sueldo == 100000) {
+    console.log('Excelente');
+} else if (sueldo <= 40000) {
+    console.log('Bajo');
+} else if (sueldo <= 60000) {
+    console.log('Bueno');
+ } else if (sueldo <= 80000) {
+    console.log('Muy bueno');
+}
