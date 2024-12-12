@@ -19,9 +19,9 @@ console.log(pais);
 console.log(conocimientos);
 
 edad = 26;
-console.log(edad);
-
 let nuevaLongitudConocimientos = conocimientos.push('Conducir');
+
+console.log(edad);
 console.log(conocimientos);
 
 //! ------------------------------------------ PARTE 2 -------------------------------------------------- 
@@ -38,12 +38,17 @@ console.log('Recorremos el array con un for (a continuación)');
 for (let i = 0; i < modelos.length; i++) {
     console.log(modelos[i]);
 }
+
 console.log(' '); // Para dejar espacio en la consola
 console.log('Recorremos el array con un forEach (a continuación)');
 
 modelos.forEach(function(modelo, i) {
     console.log(modelo);
 })
+
+console.log(' '); // Para dejar espacio en la consola
+console.log('Creamos la frase con todos los elementos del array');
+console.log('Los vehículos marca ' + marca + ', pueden alcanzar fácilmente los ' + velocidad + '. Contamos con un stock de ' + stock + ' unidades. Entre los cuales tenemos modelos como: ' + modelos[0] + ', ' + modelos[1] + ', ' + modelos[2] + ' y ' + modelos[3] + '.');
 
 //! ------------------------------------------ PARTE 3 -------------------------------------------------- 
 
@@ -61,8 +66,9 @@ if (rapidez > 60) {
 
 console.warn('PARTE 4');
 
-let sueldo = 0;
-// sueldo = Number(prompt('Cuál es su sueldo?', '0'));
+// La letra de la parte 4 tiene vacíos, me refiero a que si el sueldo está entre 80.001 y 99.999 o es mayor a 100.000, no se indica ninguna acción
+
+let sueldo = Number(prompt('Cuál es su sueldo?', '0'));
 
 if (sueldo == 100000) {
     console.log('Excelente');
@@ -78,8 +84,7 @@ if (sueldo == 100000) {
 
 console.warn('PARTE 5');
 
-let anioNacimiento = 1998;
-// anioNacimiento = Number(prompt('Cuál es su año de nacimiento?', '1998'));
+let  anioNacimiento = Number(prompt('Cuál es su año de nacimiento?', '1998'));
 
 console.log('Actualmente tenés ' + (2024 - anioNacimiento));
 
@@ -87,8 +92,7 @@ console.log('Actualmente tenés ' + (2024 - anioNacimiento));
 
 console.warn('PARTE 6');
 
-let numeroParaTabla = 0;
-// numeroParaTabla = Number(prompt('Dime un número entero'));
+let numeroParaTabla = Number(prompt('Dime un número entero para realizar su tabla'));
 
 for (let i=1; i<=10; i++) {
     console.log(numeroParaTabla+' x '+i+' = '+numeroParaTabla*i);
@@ -98,11 +102,10 @@ for (let i=1; i<=10; i++) {
 
 console.warn('PARTE 7');
 
-let numeroEsPar = 0;
-// numeroEsPar = Number(prompt('Dime un número entero'));
+let numeroEsPar = Number(prompt('Dime un número entero para ver si es par o impar'));
 
 if ((numeroEsPar % 2) == 0) {
-    console.warn('El número es par, el módulo da 0');
+    console.warn('El número es par');
 } else {
-    console.warn('El número es impar, el módulo da distinto de 0');
+    console.warn('El número es impar');
 }
